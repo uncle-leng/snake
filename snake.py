@@ -34,6 +34,9 @@ def main():
 	font = pygame.font.SysFont('arial', 18)
 	pygame.display.set_caption('snake')
 	show_start()
+	while True:
+		run_game()
+		game_over()
 
 
 def run_game():
